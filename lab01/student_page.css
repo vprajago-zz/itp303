@@ -1,0 +1,31 @@
+body {
+  font-size: 16px;
+  background-color: #F4CBBC;
+}
+
+.section-header {
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-transform: capitalize;
+}
+
+.section-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.subheader {
+  background-color: white;
+  padding: 5px;
+  width: 30%;
+  font-size: 20px;
+  margin: 10px 0px 10px 0;
+  text-transform: uppercase;
+
+}
+
+.favorite-color {
+  color: black;
+  font-weight: bold;
+}
