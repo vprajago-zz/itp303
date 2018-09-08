@@ -1,0 +1,41 @@
+body {
+  background-color: #FAC9B8;
+  color: #2F243A;
+}
+
+.headers {
+  text-align: center;
+}
+
+.columns {
+  display: flex;
+  justify-content: space-around;
+  text-align: center;
+}
+
+.card-header {
+  margin-bottom: 10px;
+  color: white;
+  background-color: #2F243A;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+.col {
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+  min-height: 500px;
+  min-width: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+}
+
+.col:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.row {
+  margin: 5px;
+}
